@@ -1,0 +1,12 @@
+title: Emacsmirror
+author: Jonas Bernoulli
+email: jonas@bernoul.li
+url: https://emacsmirror.net
+
+baseurl: ""
+permalink: /:year/:month/:day/:title/index.html
+markdown: kramdown
+exclude:
+  - Makefile
+  - assets/emacsmirror.jpg
+  - assets/emacsmirror.xcf
