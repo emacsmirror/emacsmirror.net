@@ -87,6 +87,9 @@ The [`epkg.el`] package provides a user interface for browsing the
 interface provided by `package.el`, but there is more information and
 some goodies.  But Epkg isn't a package manager.
 
+See [this blog post][20160517] for information about the related
+[`borg.el`] package manager.
+
 `epkg.el` can be installed from Melpa using `M-x install-package RET
 epkg RET`.  Right now Epkg unfortunately doesn't work with the latest
 (or any) Emacs release, because it depends on some changes that have
@@ -198,6 +201,8 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [`borg.el`]:      https://gitlab.com/tarsius/borg
 [not-mirror]:     /stats/compare.html#orgheadline22
 [not-melpa]:      /stats/compare.html#orgheadline23
+
+[20160517]: https://emacsair.me/2016/05/17/assimilate-emacs-packages-as-git-submodules
 
 [Emacs]: https://www.gnu.org/software/emacs/emacs.html
 [Git]:   https://git-scm.com
