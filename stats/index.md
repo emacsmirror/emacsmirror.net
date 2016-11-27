@@ -9,4 +9,4 @@ title: Statistics
 - [Missing from Melpa](/stats/melpa-missing.html)
 
 The Org sources for these pages can be found
-[here](https://github.com/emacsmirror.net/epkg-reports)
+[here](https://github.com/emacsmirror/epkg-reports)

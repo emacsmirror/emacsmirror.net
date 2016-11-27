@@ -64,7 +64,7 @@ Getting a local copy
 --------------------
 
 To make full use of the Emacsmirror, you should obtain a local copy,
-which you can do by cloning the [`epkgs`] repository.
+which you can do by cloning the [`epkgs`][epkgs] repository.
 
 {% highlight shell %}
 git clone git@github.com:emacsmirror/epkgs.git ~/.emacs.d/epkgs
@@ -166,7 +166,7 @@ That way Melpa users benefit too.
 
 Some packages which have been available from Melpa for a long time are
 not available from the Emacsmirror.  See [these lists][not-mirror] and
-[these pages](/stats) for the various reasons.
+[these pages][stats] for the various reasons.
 
 If, after consulting these resources, you still think that it makes
 sense to ask me to add a particular package, then please
@@ -194,13 +194,13 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [Emacsmirror]:    https://github.com/emacsmirror
 [Emacsattic]:     https://github.com/emacsattic
 [Emacsorphanage]: https://github.com/emacsorphanage
-[`epkgs`]:        https://github.com/emacsmirror/epkgs
 [epkgs]:          https://github.com/emacsmirror/epkgs
 [issues]:         https://github.com/emacsmirror/p/issues/new
-[`epkg.el`]:      https://gitlab.com/tarsius/epkg
-[`borg.el`]:      https://gitlab.com/tarsius/borg
-[not-mirror]:     /stats/compare.html#orgheadline22
-[not-melpa]:      /stats/compare.html#orgheadline23
+[`epkg.el`]:      https://gitlab.com/emacscollective/epkg
+[`borg.el`]:      https://gitlab.com/emacscollective/borg
+[stats]:          /stats/
+[not-mirror]:     /stats/compare.html#org56f65cd
+[not-melpa]:      /stats/melpa-missing.html
 
 [20160517]: https://emacsair.me/2016/05/17/assimilate-emacs-packages-as-git-submodules
 
