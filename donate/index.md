@@ -66,6 +66,6 @@ Bitcoin
 You may also send some Satoshi my way.  Please do that if you would
 like to avoid a billion dollar company taking a cut.
 
-**3KuxJ2Ju3uEPXbQnEZANqvxTpKtvmKDWSC**
+**13m7CeXEeYfiu11rtNaRfWu3pcp7VUkWwX**
 
 <img src="/assets/bitcoin.png">
