@@ -14,8 +14,8 @@ SYNC  = --exclude "manual/*"
 SYNC += --include "manual/index.html"
 SYNC += --exclude "stats/*"
 SYNC += --include "stats/index.html"
-#NOT  https://gitlab.com/emacscollective/borg => /manual/borg{/*,.html,.pdf}
-#NOT  https://gitlab.com/emacscollective/epkg => /manual/epkg{/*,.html,.pdf}
+#NOT  https://github.com/emacscollective/borg => /manual/borg{/*,.html,.pdf}
+#NOT  https://github.com/emacscollective/epkg => /manual/epkg{/*,.html,.pdf}
 
 ## Usage #############################################################
 

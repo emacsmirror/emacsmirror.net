@@ -196,8 +196,8 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [Emacsorphanage]: https://github.com/emacsorphanage
 [epkgs]:          https://github.com/emacsmirror/epkgs
 [issues]:         https://github.com/emacsmirror/p/issues/new
-[`epkg.el`]:      https://gitlab.com/emacscollective/epkg
-[`borg.el`]:      https://gitlab.com/emacscollective/borg
+[`epkg.el`]:      https://github.com/emacscollective/epkg
+[`borg.el`]:      https://github.com/emacscollective/borg
 [stats]:          /stats/
 [not-mirror]:     /stats/compare.html#org56f65cd
 [not-melpa]:      /stats/melpa-missing.html
