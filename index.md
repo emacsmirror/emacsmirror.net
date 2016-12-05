@@ -1,6 +1,5 @@
 ---
 layout: default
-title: The Emacsmirror
 ---
 
 The Emacsmirror is a growing collection of [Emacs] Lisp packages.  All

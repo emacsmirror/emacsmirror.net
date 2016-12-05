@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Emacsmirror</title>
+    <title>The Emacsmirror! {{ page.title }}</title>
     <meta name="author"      content="Jonas Bernoulli <jonas@bernoul.li>">
     <meta name="description" content="The Emacsmirror">
     <meta name="keywords"    content="emacs, git, package">
@@ -22,7 +22,11 @@
       <a href="https://twitter.com/magit_emacs">Twitter</a>
     </nav>
     <header>
+    {% if page.title %}
       <h1>{{ page.title }}</h1>
+    {% else %}
+      <h1>The Emacsmirror</h1>
+    {% endif %}
     </header>
 {{ content }}
     <script type="text/javascript">

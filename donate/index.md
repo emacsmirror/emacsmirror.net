@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Thanks for your support
+title: Donations
 ---
 
 PayPal
