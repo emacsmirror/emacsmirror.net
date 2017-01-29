@@ -49,7 +49,7 @@ Using the Emacsmirror
 =====================
 
 As mentioned above, you could use the Emacsmirror to obtain packages
-which are not available anywhere else anymore.  Likewise you could get
+that are not available anywhere else anymore.  Likewise you could get
 a package from the mirror in form of a Git repository, even if
 upstream doesn't use Git, which would be useful e.g. if you prefer to
 install packages as Git submodules.
@@ -163,7 +163,7 @@ might take a few days.
 To get a new package added to the mirror add it to Melpa instead.
 That way Melpa users benefit too.
 
-Some packages which have been available from Melpa for a long time are
+Some packages that have been available from Melpa for a long time are
 not available from the Emacsmirror.  See [these lists][not-mirror] and
 [these pages][stats] for the various reasons.
 
@@ -178,7 +178,7 @@ The Emacsmirror isn't an Elpa package archive.  While it could be used
 to provide such an archive, I don't think that there is a need for
 that because [Melpa] already serves that purpose very well.
 
-But like the Emacsmirror misses some package which are available from
+But like the Emacsmirror misses some package that are available from
 Melpa, Melpa too isn't complete.  [Here][not-melpa] you can find some
 lists of such packages, in case you would like to help making Melpa
 more complete.
