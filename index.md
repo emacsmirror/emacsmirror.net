@@ -84,16 +84,14 @@ Browsing the database with epkg.el
 The [`epkg.el`] package provides a user interface for browsing the
 [Emacsmirror package database][epkgs].  It is very similar to the
 interface provided by `package.el`, but there is more information and
-some goodies.  But Epkg isn't a package manager.
+some goodies.
 
-See [this blog post][20160517] for information about the related
-[`borg.el`] package manager.
+But Epkg isn't a package manager.  See [this blog post][20160517] for
+information about the related [`borg.el`] package manager.
 
 `epkg.el` can be installed from Melpa using `M-x install-package RET
-epkg RET`.  Right now Epkg unfortunately doesn't work with the latest
-(or any) Emacs release, because it depends on some changes that have
-not made it into a release yet.  Installation and usage instructions
-can be found in [the manual](/manual/epkg).
+epkg RET`.  Installation and usage instructions can be found
+in [the manual](/manual/epkg).
 
 <img src="/assets/epkg.png">
 
