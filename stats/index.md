@@ -4,8 +4,8 @@ title: Statistics
 ---
 
 - [Comparison with other archives](/stats/compare.html)
-- [Configuration](/stats/config.html)
-- [Known issues](/stats/issues.html)
+- [Issues with workarounds](/stats/kludges.html)
+- [Unresolved issues](/stats/issues.html)
 - [The Emacs Orphanage](/stats/emacsorphanage.html)
 - [Missing from Melpa](/stats/melpa-missing.html)
 
