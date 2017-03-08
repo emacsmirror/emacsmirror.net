@@ -43,7 +43,7 @@ only happen in exceptional cases.
 ***Please consider supporting my work on the Emacsmirror and related
 tools such as [`epkg.el`] and [`borg.el`] by [making a donation](/donate).***
 
-<center><img width="16" height="16" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png"></center>
+<center><img class="clear" width="16" height="16" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png"></center>
 
 Using the Emacsmirror
 =====================

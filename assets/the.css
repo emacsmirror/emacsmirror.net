@@ -71,6 +71,12 @@ img {
   box-shadow: 2px 2px 15px #93a1a1;
 }
 
+img.clear {
+  box-shadow: unset;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .post-list {
   margin-left: 0;
   padding-left: 0;
