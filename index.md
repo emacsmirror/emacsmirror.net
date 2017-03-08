@@ -11,12 +11,12 @@ available as a Git repository.
 <img src="/assets/emacsmirror.png">
 
 One primary purpose of the Emacsmirror is to provide a comprehensive
-list of available Emacs packages, including packages which have gone
+list of available Emacs packages, including packages that have gone
 out of fashion (but might later prove to be useful still).
 
 Older efforts attempting to provide a comprehensive list of available
 packages, such as the [Emacs Lisp List][ell], over time collected an
-impressive list of dead links to packages which were no longer
+impressive list of dead links to packages that were no longer
 available anywhere.
 
 With the Emacsmirror this won't happen.  If a package's upstream
@@ -155,7 +155,7 @@ Most packages that are available from Melpa are also available from
 the Emacsmirror.  New packages are added to Melpa on a regular basis
 and after a short delay these packages are also semi-automatically
 added to the Emacsmirror.  So there is no need to ask for new Melpa
-additions to be added to the Emacsmirror too.  It will happen but it
+additions to be added to the Emacsmirror too.  It will happen, but it
 might take a few days.
 
 To get a new package added to the mirror add it to Melpa instead.
