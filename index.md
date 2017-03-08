@@ -151,7 +151,7 @@ seconds.
 Adding new packages
 -------------------
 
-Most packages that are available from Melpa are also available from
+All packages that are available from Melpa are also available from
 the Emacsmirror.  New packages are added to Melpa on a regular basis
 and after a short delay these packages are also semi-automatically
 added to the Emacsmirror.  So there is no need to ask for new Melpa
@@ -161,9 +161,13 @@ might take a few days.
 To get a new package added to the mirror add it to Melpa instead.
 That way Melpa users benefit too.
 
-Some packages that have been available from Melpa for a long time are
-not available from the Emacsmirror.  See [these lists][not-mirror] and
-[these pages][stats] for the various reasons.
+Some packages that are available from Melpa *appear* to be missing
+from the Emacsmirror.  The reason for that is that Melpa sometimes
+creates several packages from a single repositoy, while for the
+Emacsmirror the smallest unit is the repository.
+
+See [these lists][not-mirror]
+and [these pages][stats] for the various reasons.
 
 If, after consulting these resources, you still think that it makes
 sense to ask me to add a particular package, then please
@@ -174,12 +178,12 @@ What the Emacsmirror is not
 
 The Emacsmirror isn't an Elpa package archive.  While it could be used
 to provide such an archive, I don't think that there is a need for
-that because [Melpa] already serves that purpose very well.
+that because [Melpa] already serves that purpose very
+well.  [Here][not-mirror] you can find a list of such packages.
 
-But like the Emacsmirror misses some package that are available from
-Melpa, Melpa too isn't complete.  [Here][not-melpa] you can find some
-lists of such packages, in case you would like to help making Melpa
-more complete.
+Many mirrored packages are actually missing from
+Melpa.  [Here][not-melpa] you can find some lists of such packages,
+in case you would like to help making Melpa more complete.
 
 <br/><b/>
 
@@ -196,7 +200,7 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [`epkg.el`]:      https://github.com/emacscollective/epkg
 [`borg.el`]:      https://github.com/emacscollective/borg
 [stats]:          /stats/
-[not-mirror]:     /stats/compare.html#org56f65cd
+[not-mirror]:     /stats/compare.html#org27adc56
 [not-melpa]:      /stats/melpa-missing.html
 
 [20160517]: https://emacsair.me/2016/05/17/assimilate-emacs-packages-as-git-submodules
