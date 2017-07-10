@@ -8,6 +8,7 @@ title: Statistics
 - [Unresolved issues](/stats/issues.html)
 - [The Emacs Orphanage](/stats/emacsorphanage.html)
 - [Missing from Melpa](/stats/melpa-missing.html)
+- [Used licenses](/stats/licenses.html)
 - [Packages still on the Emacswiki](/stats/emacswiki.html)
 
 The Org sources for these pages can be found
