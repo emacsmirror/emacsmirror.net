@@ -6,8 +6,8 @@ title: Statistics
 - [Comparison with other archives](/stats/compare.html)
 - [Manually adjusted metadata](/stats/kludges.html)
 - [Unresolved issues](/stats/issues.html)
-- [The Emacs Orphanage](/stats/emacsorphanage.html)
-- [Missing from Melpa](/stats/melpa-missing.html)
+- [Emacsorphanage](/stats/emacsorphanage.html)
+- [Melpa](/stats/melpa.html)
 - [Used licenses](/stats/licenses.html)
 - [Packages still on the Emacswiki](/stats/emacswiki.html)
 
