@@ -2,6 +2,7 @@
 
 DOMAIN         ?= emacsmirror.net
 PUBLIC         ?= https://$(DOMAIN)
+CFRONT_DIST    ?= E1IXJGPIOM4EUW
 PUBLISH_BUCKET ?= s3://$(DOMAIN)
 PREVIEW_BUCKET ?= s3://preview.$(DOMAIN)
 S3_DOMAIN      ?= s3-website.eu-central-1.amazonaws.com
@@ -55,6 +56,8 @@ publish: clean build
 	then echo "Uploading to $(PUBLISH_BUCKET)..."; \
 	else echo "ERROR: Only master can be published"; exit 1; fi
 	@aws s3 sync $(SRC) $(PUBLISH_BUCKET)$(DST) --delete $(SYNC)
+	@aws cloudfront create-invalidation \
+	--distribution-id $(CFRONT_DIST) --paths "/*"
 
 publish-other:
 	@echo "Publishing from related repositories..."
