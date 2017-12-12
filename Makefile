@@ -57,7 +57,7 @@ publish: clean build
 	else echo "ERROR: Only master can be published"; exit 1; fi
 	@aws s3 sync $(SRC) $(PUBLISH_BUCKET)$(DST) --delete $(SYNC)
 	@aws cloudfront create-invalidation \
-	--distribution-id $(CFRONT_DIST) --paths "/*"
+	--distribution-id $(CFRONT_DIST) --paths "/*" > /dev/null
 
 publish-other:
 	@echo "Publishing from related repositories..."
