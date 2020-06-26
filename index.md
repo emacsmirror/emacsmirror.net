@@ -179,7 +179,7 @@ What the Emacsmirror is not
 The Emacsmirror isn't an Elpa package archive.  While it could be used
 to provide such an archive, I don't think that there is a need for
 that because [Melpa] already serves that purpose very
-well.  [Here][not-mirror] you can find a list of such packages.
+well.
 
 Many mirrored packages are actually missing from
 Melpa.  [Here][not-melpa] you can find some lists of such packages,
@@ -200,8 +200,7 @@ by    [David Bygott](https://www.flickr.com/photos/davidbygott).*
 [`epkg.el`]:      https://github.com/emacscollective/epkg
 [`borg.el`]:      https://github.com/emacscollective/borg
 [stats]:          /stats/
-[not-mirror]:     /stats/compare.html#org27adc56
-[not-melpa]:      /stats/melpa-missing.html
+[not-melpa]:      /stats/melpa.html
 
 [20160517]: https://emacsair.me/2016/05/17/assimilate-emacs-packages-as-git-submodules
 
