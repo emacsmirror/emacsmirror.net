@@ -55,7 +55,7 @@ upstream doesn't use Git, which would be useful e.g. if you prefer to
 install packages as Git submodules.
 
 A package's Emacsmirror or Emacsattic repository on Github is usually
-among the top results when doing a web serch for `<package-name>
+among the top results when doing a web search for `<package-name>
 emacs`, so you don't need anything but a browser and Git, to use the
 mirror like this.  However...
 
