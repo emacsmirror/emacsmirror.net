@@ -3,7 +3,7 @@ layout: default
 title: Statistics
 ---
 
-# Emacsmirror Statistics
+## Emacsmirror Statistics
 
 - [Comparison with other archives](/stats/compare.html)
 - [Manually adjusted metadata](/stats/kludges.html)
@@ -16,7 +16,7 @@ title: Statistics
 The Org sources for these pages can be found
 [here](https://github.com/emacsmirror/epkg-reports).
 
-# Statistics about Borg and Epkg
+## Statistics about Borg and Epkg
 
 - [Borg statistics](/stats/borg/activity.html)
 - [Epkg statistics](/stats/epkg/activity.html)
