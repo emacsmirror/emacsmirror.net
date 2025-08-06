@@ -41,7 +41,8 @@ only happen in exceptional cases.
 <br/><br/>
 
 ***Please consider supporting my work on the Emacsmirror and related
-tools such as [`epkg.el`] and [`borg.el`] by [making a donation](/donate).***
+tools such as [`epkg.el`] and [`borg.el`] (and Magit) by
+[making a donation](https://magit.vc/donate/).***
 
 <center><img class="clear" width="16" height="16" src="/assets/pixel-heart.png"></center>
 
